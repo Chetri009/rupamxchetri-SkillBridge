@@ -1,0 +1,64 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./contact.css">
+  
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+          <div class="navbar-logo">SkillBridge</div>
+          <ul class="navbar-menu">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+      <div class="contact-container">
+        <header class="header">
+            <h1>SkillBridge</h1>
+            <h2>Contact Us</h2>
+            <p>Have questions or need support? Get in touch with us!</p>
+        </header>
+
+        <div class="contact-info">
+            <div class="info-block">
+                <h3>Email Us</h3>
+                <p><a href="mailto:support@skillbridge.com">support@skillbridge.com</a></p>
+            </div>
+            <div class="info-block">
+                <h3>Call Us</h3>
+                <p>+91 9864954478</p>
+            </div>
+            <div class="info-block">
+                <h3>Visit Us</h3>
+                <p>Barpipal Lower Sichey<br>Gangtok,Sikkim</p>
+            </div>
+        </div>
+
+        <form class="contact-form" action="/submit-form" method="POST">
+            <h3>Send us a message</h3>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

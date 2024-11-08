@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    height: 100%;
+  }
+  
+  header {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  .job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 2em;
+  }
+  
+  .job-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+
+  }
+  
+  .job-card h2 {
+    color: #007bff;
+    padding-bottom: 10px;
+  }
+  
+  .apply-btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .apply-btn:hover {
+    background-color: #218838;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #f9f9f9;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.footer-content div {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    margin-bottom: 8px;
+}
+
+.footer-nav a {
+    color: #f9f9f9;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #ddd;
+}
+
+.footer-social a {
+    display: inline-block;
+    color: #f9f9f9;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #ddd;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+    color: white;
+    margin-right: 169px;
+}
+
+
+.footer-apps .app-link {
+    display: inline-block;
+    color: #fff;
+    background-color: #0066cc;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.footer-apps .app-link.ios {
+    background-color: #007aff;
+}
+
+.footer-apps .app-link.android {
+    background-color: #3ddc84;
+}
+
+.footer-apps .app-link:hover {
+    opacity: 0.9;
+}
+
+.footer-bottom,p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+body {
+  font-family: Arial, sans-serif; 
+  
+  margin: 0; 
+  padding: 0; 
+  background: url(img.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+
+
+}
+
+.login-container ,.signup-container {
+  max-width: 400px; 
+  margin: 50px auto; 
+  padding: 30px; 
+  background: linear-gradient(135deg, #e4dce7, #ecd9f9);
+  border-radius: 10px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  height: auto;
+  width: 30%;
+}
+
+h2 {
+  text-align: center; 
+  color: #333; 
+  margin-bottom: 20px; 
+}
+
+.form-group {
+  margin-bottom: 15px; 
+}
+
+label {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="password"]:focus {
+  border-color: #007bff; 
+  outline: none; 
+}
+
+button {
+  width: 100%; 
+  padding: 10px; 
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  margin-top: 10px; 
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+p {
+  text-align: center; 
+  margin-top: 15px; 
+  color: black;
+}
+
+a {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+body {
+font-family: Arial, sans-serif; 
+
+margin: 0; 
+padding: 0; 
+background: url(img.jpg)no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 90vh;
+
+
+}
+.hire-me-container {
+max-width: 800px; 
+margin: 50px auto; 
+padding: 20px; 
+background: #bbb; 
+border-radius: 10px; 
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+text-align: center; 
+color: #333; 
+margin-bottom: 20px; 
+}
+
+.form-group {
+margin-bottom: 15px; 
+}
+
+label {
+display: block; 
+margin-bottom: 5px; 
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+width: 100%; 
+padding: 10px; 
+border: 1px solid #ddd; 
+border-radius: 5px; 
+box-sizing: border-box; 
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+textarea:focus {
+border-color: #007bff; 
+outline: none; 
+}
+
+button {
+width: 100%; 
+padding: 10px; 
+background-color: #007bff; 
+color: white; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+font-size: 16px; 
+margin-top: 10px; 
+}
+
+button:hover {
+background-color: #0056b3; 
+}
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-menu li {
+  display: inline;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-menu a:hover {
+  color: #ddd;
+}
+.navbar ul{
+  padding-right: 750px;
+}
+.footer p{
+  color: white;
+}
+
+.footer{
+  margin-top: 200px;
+}
